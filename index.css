@@ -1,0 +1,119 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+  
+    
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'DM Serif Display', serif;
+font-family: 'Roboto', sans-serif;
+  
+   
+    
+}
+.images{
+    background-image: url("./shutterstock_1556534186.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+}
+.cardimg{
+    height: 5rem;
+    width: 5rem;
+    
+
+}
+.blog{
+    display: flex;
+    
+    
+}
+.font{
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
+      
+}
+.project-txt{
+  font-size: 3rem;
+
+  
+}
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+ 
+
+
+.icon i{
+color: white;
+ 
+  margin: 20px;
+  font-size: 2rem;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50% ;
+  background-color: lightcyan
+  
+
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .tracking-in-expand-fwd-top {
+	-webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+ 
+
